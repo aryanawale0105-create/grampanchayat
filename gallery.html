@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+<style>
+body{
+    margin:0;
+    background:#c1b642;
+    overflow-x:hidden;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.container{
+    flex:1;
+}
+
+img{
+    max-width:100%;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#1d94b6;
+}
+
+.navbar-brand,
+.nav-link{
+    color:white;
+    font-weight:bold;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-right:10px;
+}
+
+.notice{
+    margin-top:50px;
+    background:#fff3cd;
+    padding:12px;
+    font-size:18px;
+    font-weight:bold;
+
+}
+footer{
+    background:#f60919;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:auto;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img src="logo.png" class="logo">
+        Gram Panchayat Nagaon
+    </a>
+
+    <button class="navbar-toggler" data-toggle="collapse"
+    data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="notice">
+Notice: Citizen participation is the key to village development.
+</div>
+
+<h1 style="color: #4da342; text-align: center ;">Village Gallery</h1>
+
+<div class="col-md-4 mb-3">
+    <img src="carsoule1.jpg" class="img-fluid rounded"
+    style="width:100%; height:250px; object-fit:cover;">
+</div>
+
+<div class="col-md-4 mb-3">
+    <img src="carsoule2.jpg" class="img-fluid rounded"
+    style="width:100%; height:250px; object-fit:cover;">
+</div>
+
+<div class="col-md-4 mb-3">
+    <img src="carsoule3.jpg" class="img-fluid rounded"
+    style="width:100%; height:250px; object-fit:cover;">
+</div>
+
+<footer>
+<h5>Gram Panchayat Nagaon</h5>
+<p>Taluka Hatkanangle, District Kolhapur, Maharashtra</p>
+</footer>
+
+
+</body>
+</html>
